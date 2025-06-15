@@ -19,6 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+       <head>
+        <link rel="icon" href="images\logo-no-background.png" type="image/png" />
+      </head>
       <body>
         <Providers>{children}</Providers>
       </body>
